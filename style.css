@@ -1,0 +1,38 @@
+html { 
+  background: url(https://rijks-qms-frontend.azureedge.net/assets/e89bc73e-ccf9-4aed-8272-7c87e98ebaea?w=1200&c=0aba472848ee8cf4a2353227295ff3b2f621b266dbb950341b8aa924b5ec6e62) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+*{
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+h1, p {
+  font-family: Lato;
+  color: #ffffff;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.button{
+  padding: 10px 20px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.button:hover{
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  border: 1px solid #000000;
+}
